@@ -7,7 +7,7 @@ public class Calendario {
     public UInt16 Ano { get; set; }
 
     public Boolean isMesValido(){
-        if (this.Mes < 13 && this.Mes > 0 && this.Mes is Byte){
+        if (this.Mes < 13 && this.Mes > 0){
             return true;
         }
         else {
