@@ -9,7 +9,7 @@ public class Calendario
 
     public Boolean isMesValido()
     {
-        if (this.Mes < 13 && this.Mes > 0 )
+        if (this.Mes < 13 && this.Mes > 0)
         {
             return true;
         }
@@ -21,7 +21,7 @@ public class Calendario
 
     public Boolean isAnoValido()
     {
-        if (this.Ano < 9999 && this.Ano > 1)
+        if (this.Ano <= 9999 && this.Ano >= 1)
         {
             return true;
         }
