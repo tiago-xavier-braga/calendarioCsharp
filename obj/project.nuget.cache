@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jp8M6X+Z958gCkVRIXcsySt4Y6wJPExxBmVVxZsl5e0LBFW9Hi7ty0lI9cr1pQA56cKHkrjGBRLuwEgTO7SLCA==",
+  "dgSpecHash": "DgfguUwc3oV/631mxsLgjNfsy99rHK9d8WNWmj+NmWUh208zjlXCLBopebI9lfBhIbIvBnEZbl0+tb60C6GF1Q==",
   "success": true,
-  "projectFilePath": "/home/tiagobraga/www/classroom/ProgVisual/calendarioCsharp/main.csproj",
+  "projectFilePath": "D:\\Programação\\c#\\calendarioCsharp\\main.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
