@@ -9,7 +9,13 @@ public class Program
         Calendario c = new Calendario();
     Ano:
         Console.WriteLine("Insira o ano desejado: ");
-        c.Ano = Convert.ToUInt16(Console.ReadLine());
+
+        try {
+            c.Ano = Convert.ToUInt16((Console.ReadLine()));
+        }
+        catch (FormatException) {
+        
+        }
         Boolean anovalidate = c.isAnoValido();
         if (anovalidate == false)
         {
@@ -19,7 +25,12 @@ public class Program
         else { }
     Mes:
         Console.WriteLine("Insira o mes desejado: ");
-        c.Mes = Byte.Parse(Console.ReadLine());
+        try {
+            c.Mes = Convert.ToByte(Console.ReadLine());
+        }
+        catch (FormatException) {
+        
+        }
         Boolean mesvalidate = c.isMesValido();
         if (mesvalidate == false)
         {
